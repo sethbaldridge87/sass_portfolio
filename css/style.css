@@ -1,21 +1,108 @@
 body {
-  font-family: 'Oswald', sans-serif;
-  font-family: 'PT Sans Narrow', sans-serif;
-  font-family: 'Fjalla One', sans-serif;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+body h2 {
+  text-align: center;
+  padding: 10px;
 }
 
 body header img {
   width: 100%;
 }
 
+body .sticky {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+}
+
 body #navigation {
-  background-color: #202020 !important;
-  -webkit-box-shadow: 0px 5px 5px #606060;
-          box-shadow: 0px 5px 5px #606060;
+  background: #161720 !important;
+  -webkit-box-shadow: 0px 5px 5px #b8b8b8;
+          box-shadow: 0px 5px 5px #b8b8b8;
+  z-index: 10;
 }
 
 body #navigation a {
   color: #2ee0ff;
   text-transform: uppercase;
+}
+
+@media (max-width: 991px) {
+  body #navigation .navbar-brand {
+    padding-left: 20px;
+  }
+}
+
+body main section {
+  background: #252934;
+}
+
+body main section h1, body main section h2, body main section h3, body main section h4, body main section h5 {
+  color: #ff2e74;
+}
+
+body main section #greeter p {
+  font-size: 1.5em;
+}
+
+body main section #projects div {
+  padding: 0 20px;
+}
+
+body main section #projects h4 {
+  text-align: center;
+}
+
+body main section #projects .link {
+  text-align: center;
+}
+
+body main section #projects .link ul {
+  list-style-type: none;
+  margin-left: -30px;
+}
+
+body main article {
+  padding: 15px;
+  background: #1b242f;
+}
+
+body main article h1, body main article h2, body main article h3, body main article h4, body main article h5 {
+  color: #2ee0ff;
+}
+
+body main article #skillsRow {
+  text-align: center;
+}
+
+body main article #skillsRow p {
+  font-size: 1.5em;
+}
+
+body main #greeter {
+  padding: 15px;
+}
+
+body main #greeter img {
+  width: 100%;
+}
+
+body footer {
+  background: #1b242f;
+}
+
+body footer .row {
+  text-align: center;
+}
+
+body footer img {
+  margin-top: 50px;
+  height: 100px;
+  -webkit-filter: invert(71%) sepia(79%) saturate(1710%) hue-rotate(157deg) brightness(106%) contrast(102%);
+          filter: invert(71%) sepia(79%) saturate(1710%) hue-rotate(157deg) brightness(106%) contrast(102%);
 }
 /*# sourceMappingURL=style.css.map */

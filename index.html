@@ -8,9 +8,10 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <title>My Little Corner of the Web</title>
+	<title>My Little Corner of the Web</title>
+	<script></script>
     <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Oswald|PT+Sans+Narrow&display=swap" rel="stylesheet">
+	<script src="script/script.js"></script>
 </head>
 <body>
     <header>
@@ -55,8 +56,116 @@
     </nav>
     <main>
         <section>
-            
-        </section>
-    </main>
+            <div class="container-fluid">
+				<div class="row" id="greeter">
+					<div class="col-md-3 col-sm-12">
+						<img src="images/circle_portrait.png" alt="Portrait">
+					</div>
+					<div class="col-md-9 col-sm-12 align-self-center">
+						<h2>Greetings!</h2>
+						<p>My name is Seth! I am a web developer with 2+ years of experience creating front-end and back-end applications using modern coding languages. My current employer's website has seen increased traffic through SEO improvements, generating interactive apps, and more dynamic presentation.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<article>
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+						<h2>My Stack Includes:</h2>
+					</div>
+				</div>
+				<div id="skillsRow" class="row">
+					<div class="col-lg-2 col-md-2 col-sm-4 col-6"><p>HTML</p></div>
+					<div class="col-lg-2 col-md-2 col-sm-4 col-6"><p>CSS</p></div>
+					<div class="col-lg-2 col-md-2 col-sm-4 col-6"><p>JavaScript</p></div>
+					<div class="col-lg-2 col-md-2 col-sm-4 col-6"><p>jQuery</p></div>
+					<div class="col-lg-2 col-md-2 col-sm-4 col-6"><p>PHP</p></div>
+					<div class="col-lg-2 col-md-2 col-sm-4 col-6"><p>MySQL</p></div>
+					<div class="col-lg-2 col-md-2 col-sm-4 col-6"><p>Bootstrap</p></div>
+					<div class="col-lg-2 col-md-2 col-sm-4 col-6"><p>Firebase</p></div>
+					<div class="col-lg-2 col-md-2 col-sm-4 col-6"><p>APIs</p></div>
+					<div class="col-lg-2 col-md-2 col-sm-4 col-6"><p>Node.js</p></div>
+					<div class="col-lg-2 col-md-2 col-sm-4 col-6"><p>MongoDB</p></div>
+					<div class="col-lg-2 col-md-2 col-sm-4 col-6"><p>React</p></div>
+					<div class="col-lg-2 col-md-2 col-sm-4 col-6"><p>Express</p></div>
+					<div class="col-lg-2 col-md-2 col-sm-4 col-6"><p>SEO</p></div>
+					<div class="col-lg-2 col-md-2 col-sm-4 col-6"><p>Python</p></div>
+					<div class="col-lg-2 col-md-2 col-sm-4 col-6"><p>Photoshop</p></div>
+				</div>
+			</div>
+		</article>
+		<section>
+			<div class="container-fluid" id="projects">
+				<div class="row">
+					<div class="col-12">
+						<h2>Projects:</h2><br>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-4">
+						<h4>Cheat Day</h4>
+						<p>Website created for client to display products. Includes responsive image gallery, touch-responsive slider, Instagram API, nutrition API, order form that saves to Firebase, and several Bootstrap utilities. Will continue to improve as newer technologies are learned and more feedback from client is received.</p>
+						<div class="link">
+							<a href="https://github.com/sethbaldridge87/cheat_day">Link to repository</a><br>
+							<a href="https://sethbaldridge87.github.io/cheat_day/">Deployed Link</a><br>
+							<ul>
+								<li>Bootstrap</li>
+								<li>jQuery</li>
+								<li>Firebase</li>
+								<li>slick.js</li>
+								<li>Moment.js</li>
+								<li>APIs</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<h4>Train Schedule</h4>
+						<p>The user inputs a train name, destination, time of first departure, and frequency of arrivals. The input is dynamically added to the database and displayed instantly through a Firebase API. Using Moment.js, the time from the initial departure time and the present time are compared, and the time of the next arrival is calculated. The user can also see how many minutes away the next train is.</p>
+						<div class="link">
+							<a href="https://github.com/sethbaldridge87/train_schedule">Link to repository</a><br>
+							<a href="https://sethbaldridge87.github.io/train_schedule/">Deployed Link</a><br>
+							<ul>
+								<li>jQuery</li>
+								<li>Bootstrap</li>
+								<li>Firebase</li>
+								<li>Moment.js</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<h4>Star Wars RPG Game</h4>
+						<p>Click battle game created using loops, arrays, and changing variables. Player selects a character and chooses opponents to fight until all of them are defeated. Wins and losses are both possible, depending on user input.</p>
+						<div class="link">
+							<a href="https://github.com/sethbaldridge87/starwars_rpg">Link to repository</a><br>
+							<a href="https://sethbaldridge87.github.io/starwars_rpg/">Deployed Link</a><br>
+							<ul>
+								<li>jQuery</li>
+								<li>Bootstrap</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+	<footer>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-4">
+					<a href="https://www.facebook.com/seth.r.baldridge"><img src="images/facebook-square-brands.svg" alt="Facebook"></a>
+				</div>
+				<div class="col-4">
+					<a href="https://github.com/sethbaldridge87"><img src="images/github-square-brands.svg" alt="GitHub"></a>
+				</div>
+				<div class="col-4">
+					<a href="https://www.linkedin.com/in/seth-baldridge-591282175/"><img src="images/linkedin-brands.svg" alt="LinkedIn"></a>
+				</div>
+				<div class="col-12">
+					<p>&copy;sethsweb.com <span id="current_year"></span></p>
+				</div>
+			</div>
+		</div>
+	</footer>
 </body>
 </html>
