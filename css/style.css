@@ -1,0 +1,21 @@
+body {
+  font-family: 'Oswald', sans-serif;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-family: 'Fjalla One', sans-serif;
+}
+
+body header img {
+  width: 100%;
+}
+
+body #navigation {
+  background-color: #202020 !important;
+  -webkit-box-shadow: 0px 5px 5px #606060;
+          box-shadow: 0px 5px 5px #606060;
+}
+
+body #navigation a {
+  color: #2ee0ff;
+  text-transform: uppercase;
+}
+/*# sourceMappingURL=style.css.map */
